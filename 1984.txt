@@ -1,0 +1,25 @@
+1984
+
+Autocratic regime organizes national day celebrations at different venues at various times each having its designated capacity. Events are cancelable and register attendance. Events are organized by officers which have salary. Officers manage attendance, can be bribed and promoted and have one supervisor at most and 0 or more subordinates.
+
+
+Person in the system has a unique id, name, surname, phone number, point score and last known location and is labelled hierarchical status [elite, honorable, normal, suspicious, renegade] which is updated according to current point score. Location can be updated. Points can be added or reduced.
+
+
+A person can denunciate other people, providing a reason. Denunciation has severity label [critical, significant, minor, false], amount of points to be deducted and is confirmed by an officer. Point cost, severity and reason can be altered. We can acquire the reason of denunciation and whether the severity is false.
+
+
+Person can be monitored in different ways. Each surveillance tool has its own id.
+Monitored target can be changed and monitored by these 3 surveillance tools:
+- CCTV (Closed-circuit television camera) - these cameras are setup on different locations and can scan their surroundings.
+- Wire - this tool is made to listen to its wired target - only thing that has to be managed is its battery level
+- Spy - this is undercover person with ability of identity swap
+ 
+These tools can be managed and used to: localize person, wire trap person, find nearest CCTV and charge wire.
+
+
+Arnik
+Fifo
+Matko
+
+Velky Brat
